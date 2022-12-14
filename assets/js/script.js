@@ -10,7 +10,6 @@
  let lockBoard = false; 
  let firstCard, secondCard; 
  let moves = 0;
- let finalTime = "";
  
  // Events
  cards.forEach(card => card.addEventListener('click', flipCard)); 
@@ -80,9 +79,6 @@
  }
  
  //Move counter
- moves = 0;
- moveContainer.innerHtml = 0;
- 
  function addMove() {
      moves++;
      moveContainer.innerHTML = moves;
@@ -93,7 +89,6 @@
  let minutes = 0;
  let seconds = 0;
  let timeStart = false;
- timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
  
  function timer() {
      time = setInterval(function() {
@@ -126,6 +121,9 @@
  }
 
  // New Game Button 
+let restartBtn = document.getElementById('restart');
+restartBtn.addEventListener('click', restart);
+
  function restart() {
   setTimeout(() => {
       flippedCard = false;
