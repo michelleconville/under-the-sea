@@ -153,3 +153,11 @@ nav a {
     border-radius: 10px;
     transition: 1s;
 }
+
+.game-btn:hover {
+    border: 1px solid #12232e;
+    background: #DBFCFF;
+    color: #0d0d2f;
+    text-decoration: none;
+    transition: 1s;
+}
