@@ -36,6 +36,13 @@ function disableCards() {
 }
 
 
+moves = 0;
+moveContainer.innerHtml = 0;
+
+function addMove() {
+    moves++;
+    moveContainer.innerHTML = moves;
+}
 
 
 
