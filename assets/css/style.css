@@ -19,3 +19,39 @@ body {
     margin: 0;
     background: radial-gradient(#4DA8DA, #12232e);
 }
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #12232E;
+    text-transform: uppercase;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.page-title {
+    color: #DBFCFF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 4em;
+}
+
+header {
+    background-color: #DBFCFF;
+    padding: 0.8em 0;
+    box-shadow: 2px 2px 10px white;
+}
+
+header a {
+    text-decoration: none;
+}
