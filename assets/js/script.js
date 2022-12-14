@@ -124,3 +124,24 @@
      [flippedCard, lockBoard] = [false, false];
      [firstCard, secondCard] = [null, null];
  }
+
+ // New Game Button 
+ function restart() {
+  setTimeout(() => {
+      flippedCard = false;
+      [firstCard, secondCard] = [null, null];
+      stopTime();
+      gameOn = false;
+      timeStart = false;
+      seconds = 0;
+      minutes = 0;
+      timeContainer.innerHTML = "Timer 0:00";
+      moves = 0;
+      moveContainer.innerHTML = 0;
+      perfectMatch = 0;
+      cards.forEach(cardReset => cardReset.classList.remove('flip'));
+      shuffle();
+      cards.forEach(card => card.addEventListener('click', flipCard));
+  }, 500);
+
+}
