@@ -75,6 +75,7 @@ function shuffle() {
 }
 
 
-function reset() {
-
+function resetBoard() {
+  [flippedCard, lockBoard] = [false, false];
+  [firstCard, secondCard] = [null, null];
 }
