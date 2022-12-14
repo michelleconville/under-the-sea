@@ -31,10 +31,23 @@ function unmatched() {
 
 }
 
-function time() {
-
-
-}
+ //timer
+ let time;
+ let minutes = 0;
+ let seconds = 0;
+ let timeStart = false;
+ timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+ 
+ function timer() {
+     time = setInterval(function() {
+         seconds++;
+         if (seconds === 59) {
+             minutes++;
+             seconds = 0;
+         }
+         timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+     }, 1000);
+ }
 
 function shuffle() {
 
