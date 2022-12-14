@@ -55,3 +55,22 @@ header {
 header a {
     text-decoration: none;
 }
+
+/* styling the nav bar */
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-left: 3em;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+nav a {
+    text-decoration: none;
+    color: #12232E;
+}
