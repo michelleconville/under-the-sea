@@ -128,7 +128,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 *   Click the *save* button
 *   A live link will be displayed in a green banner when published successfully.
 
-View the XXXXXX
+View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
 ### Clone the repository
 The steps to clone a repository are as follows:
@@ -140,7 +140,7 @@ The steps to clone a repository are as follows:
 6.	Change the current working directory to the one where you want the cloned directory
 7.	Type git clone and then paste the URL from the clipboard 
 
-    `git clone https://github.com/michelleconville/bakery-lane.git`
+    `git clone https://github.com/michelleconville/under-the-sea.git`
 8.	Press Enter to create your local clone.
 
 The repository will now be cloned on your local machine for use.
