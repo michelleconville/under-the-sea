@@ -18,14 +18,17 @@ Project 2 for Code Institute Full-stack development program: JavaScript Essentia
 ### User expectations 
 
 ### User stories
-#### First time users
-
-
-#### Returning user
-
+#### Users
+1.	I want to test my memory skill in a fun environment
+2.	I want to see how long it takes me to complete the challenge
+3.	I want to see the number of moves it takes me to complete the challenge
+4.	I want to be able to reset the game at any time
+5.	I want to receive a notification what the game is complete
 
 #### Site owner
-
+Owner stories 
+6.	I want users to be able to contact us on social media
+7.	I want users to be able to contact us
 
 
 ## Design
