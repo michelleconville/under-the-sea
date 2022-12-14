@@ -1,11 +1,18 @@
 const cards = document.querySelectorAll('.memory-card');
+const moveContainer = document.querySelector(".moves");
 
+let gameOn = false;
+let perfectMatch = 0;
 let hasFlippedCard = false;
 let firstCard, secondCard;
+let lockBoard = false;
+let moves = 0;
+let finalTime = "";
 
 cards.forEach(card => card.addEventListener('click', flipCard));
 
 function flipCard() {
+  if(lockBoard) return;
   if (this === firstCard) return;
 
   this.classList.add('flip');
@@ -22,18 +29,16 @@ function flipCard() {
   checkForMatch();
 }
 
-function checkForMatch() {
+function checkCardMatch() {
   let isMatch = firstCard.dataset.image === secondCard.dataset.image;
-  isMatch ? disableCards() : unflipCards();
+  if (isMatch) perfectMatch += 1;
 
+  if (isMatch) pairMatch();
+  else noMatch();
+
+  if (perfectMatch === MAX_MATCH) winGame();
 }
 
-function disableCards() {
-  firstCard.removeEventListener('click', flipCard);
-  secondCard.removeEventListener('click', flipCard);
-
-  resetGameBoard();
-}
 
 function pairMatch() {
  
@@ -69,15 +74,7 @@ function addMove() {
 
 
 
-function matched() {
 
-}
-
-
-
-function unmatched() {
-
-}
 
 //timer
 let time;
