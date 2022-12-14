@@ -70,10 +70,14 @@ function timer() {
   }, 1000);
 }
 
+
 function shuffle() {
+  cards.forEach(cards => {
+      let randomPosition = Math.floor(Math.random() * 16);
+      cards.style.order = randomPosition;
+  });
 
 }
-
 
 function resetBoard() {
   [flippedCard, lockBoard] = [false, false];
