@@ -1,6 +1,34 @@
 # Under the Sea
 
 ## Table of Content
+1. [Project overview](#project-overview)
+    1. [Company goals](#company-goals)
+    2. [Customer goals](#Customer-goals)
+2. [User Experience](#user-experience)
+    1. [Target Audience](#target-audience)
+    2. [User expectations](#user-expectations)
+    3. [User stories](#user-stories)
+3. [Design](#design)
+    1. [Colour](#colour)
+    2. [Fonts](#fonts)
+    3. [Structure](#structure)
+    4. [Wireframes](#wireframes)
+4. [Features](#features)
+5. [Testing](#testing)
+    1. [Validation](#validation)
+    	1. [HTML validation](#html-validation)
+        2. [CSS validation](#css-validation)
+        3. [Accessibility](#accessibility)
+        4. [Performance](#performance)
+    2. [Browser compatibility](#browser-compatibility)
+    3. [Responsiveness](#responsiveness)
+    3. [Testing user stories](#testing-user-stories)
+    4. [Bugs](#bugs)
+6. [Deployment](#deployment)
+7. [Technologies used](#technologies-used)
+8. [Credits](#credits)
+9. [Acknowledgements](#acknowledgements)
+
 
 ## Project overview
 Project 2 for Code Institute Full-stack development program: JavaScript Essentials.
