@@ -35,6 +35,26 @@ function disableCards() {
   resetGameBoard();
 }
 
+function pairMatch() {
+ 
+  firstCard.removeEventListener('click', flipCard);
+  secondCard.removeEventListener('click', flipCard);
+  resetBoard();
+}
+
+function noMatch() {
+  lockBoard = true;
+
+  setTimeout(() => {
+      firstCard.classList.remove('flip');
+      secondCard.classList.remove('flip');
+
+      resetBoard();
+  }, 900);
+
+  // Add move
+  addMove();
+}
 
 moves = 0;
 moveContainer.innerHtml = 0;
