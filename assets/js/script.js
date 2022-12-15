@@ -177,14 +177,20 @@ document.getElementById('contact-form').addEventListener('submit', function(even
 
    emailjs.sendForm(serviceID, templateID, this)
     .then(() => {
-      btn.value = 'Send Email';
-      console.log('Sent!');
+     sendFormButton.value = "Send";
+    formSubmittedMessage();
     }, (err) => {
-      btn.value = 'Send Email';
+    sendFormButton.value = 'Send Email';
       console.log(JSON.stringify(err));
     });
 });
 
-
+function formSubmittedMessage() {
+    let html = 
+    <p>
+        ADD MESSAGE HERE
+    </p>
+    document.getElementById("contact-form").innerHTML = message;
+}
 
 
