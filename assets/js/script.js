@@ -160,7 +160,30 @@ function closeRules() {
     rules.style.display = "none";
 }
 
+/**
+ * Add an eventListener to listen for the submit.
+ * Sends an email to site owner through emailJS after the submit button is clicked 
+ * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
+ */
+const btn = document.getElementById('sendBtn');
 
+document.getElementById('contact-form').addEventListener('submit', function(event) {
+   event.preventDefault();
+   emailjs.init("user_ky3jHn7C0IfrC1dfTWauP");
+    sendFormButton.value = "Sending..."; 
+
+   let serviceID = 'default_service';
+   let templateID = 'under_the_sea';
+
+   emailjs.sendForm(serviceID, templateID, this)
+    .then(() => {
+      btn.value = 'Send Email';
+      console.log('Sent!');
+    }, (err) => {
+      btn.value = 'Send Email';
+      console.log(JSON.stringify(err));
+    });
+});
 
 
 
