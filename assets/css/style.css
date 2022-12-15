@@ -140,7 +140,7 @@ nav a {
 }
 
 /* styling the restart button */
-.game-btn {
+.game-btn, .send-btn {
     display: inline-block;
     text-decoration: none;
     color: #DBFCFF;
