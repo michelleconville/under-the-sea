@@ -42,9 +42,9 @@
      checkCardMatch();
  }
  
- /*
- checking if firstCard & secondCard are a match
- */
+ /**
+  *  checking if firstCard & secondCard are a match
+  */
  function checkCardMatch() {
      let isMatch = firstCard.dataset.image === secondCard.dataset.image;
      if (isMatch) perfectMatch += 1;
@@ -142,4 +142,13 @@ restartBtn.addEventListener('click', restart);
       cards.forEach(card => card.addEventListener('click', flipCard));
   }, 500);
 
+}
+
+
+function showInstructions() {
+    instructions.style.display = "block";
+}
+
+function closeInstructions() {
+    instructions.style.display = "none";
 }
