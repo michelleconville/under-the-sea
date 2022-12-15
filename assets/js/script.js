@@ -145,7 +145,7 @@ restartBtn.addEventListener('click', restart);
 
 }
 
-//Rules modal
+//Open rules modal
 let modalBtn = document.getElementById("modalBtn");
 let closeBtn = document.getElementById("closeBtn");
 
@@ -159,6 +159,7 @@ function showRules() {
 function closeRules() {
     rules.style.display = "none";
 }
+
 
 
 
