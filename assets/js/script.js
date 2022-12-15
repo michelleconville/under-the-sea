@@ -145,10 +145,4 @@ restartBtn.addEventListener('click', restart);
 }
 
 
-function showInstructions() {
-    instructions.style.display = "block";
-}
 
-function closeInstructions() {
-    instructions.style.display = "none";
-}

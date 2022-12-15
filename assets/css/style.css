@@ -162,6 +162,7 @@ nav a {
     transition: 1s;
 }
 
+/* styling the start game text */
 .overlay-text {
     display: none;
     position: fixed;
@@ -192,3 +193,16 @@ nav a {
         font-size: 6em;
     }
 }
+
+/* styling the rules modal */
+
+.rules {
+    display: none;
+}
+
+.rules-container {
+    font-family: 'Hind', sans-serif;
+    background-color: #12232e;
+    margin: 100px 500px 100px;
+    color: #DBFCFF;
+    }
