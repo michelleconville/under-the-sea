@@ -2,6 +2,7 @@
  const cards = document.querySelectorAll('.memory-card');
  const moveContainer = document.querySelector(".moves");
  const timeContainer = document.querySelector(".timer");
+ const rules = document.getElementById('rules');
  const MAX_MATCH = 8;
  
  let gameOn = false;
@@ -143,6 +144,23 @@ restartBtn.addEventListener('click', restart);
   }, 500);
 
 }
+
+//Rules modal
+let modalBtn = document.getElementById("modalBtn");
+let closeBtn = document.getElementById("closeBtn");
+
+modalBtn.addEventListener('click', showRules);
+closeBtn.addEventListener('click', closeRules);
+
+function showRules() {
+    rules.style.display = "block";
+}
+
+function closeRules() {
+    rules.style.display = "none";
+}
+
+
 
 
 
