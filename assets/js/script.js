@@ -165,7 +165,7 @@ function closeRules() {
  * Sends an email to site owner through emailJS after the submit button is clicked 
  * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
  */
-const btn = document.getElementById('sendBtn');
+const sendFormButton = document.getElementById('send-btn');
 
 document.getElementById('contact-form').addEventListener('submit', function(event) {
    event.preventDefault();
