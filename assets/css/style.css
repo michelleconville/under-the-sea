@@ -313,6 +313,10 @@ nav li {
     margin: 100px 50px 10px;
     padding: 10px;
 }
+
+.finish-content h2 {  
+    font-size: medium;
+}
   }
 
   @media (max-width: 999px) {
