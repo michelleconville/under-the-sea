@@ -99,7 +99,7 @@
              minutes++;
              seconds = 0;
          }
-         timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+         timeContainer.innerHTML = "time " + minutes + " : " + seconds;
      }, 1000);
  }
  

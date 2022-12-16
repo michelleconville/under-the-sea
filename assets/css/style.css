@@ -299,6 +299,11 @@ nav li {
     margin: 100px 50px 10px;
     padding: 10px;
 }
+
+.finish-content {  
+    margin: 100px 50px 10px;
+    padding: 10px;
+}
   }
 
   @media (max-width: 999px) {
@@ -307,11 +312,21 @@ nav li {
         margin: 100px 50px 10px;
         padding: 10px;
     }
+    
+    .finish-content {  
+        margin: 100px 50px 10px;
+        padding: 10px;
+    }
   }
 
   @media (max-width: 1400px) {
    
     .rules-container {  
+        margin: 100px 50px 10px;
+        padding: 10px;
+    }
+
+    .finish-content {  
         margin: 100px 50px 10px;
         padding: 10px;
     }
