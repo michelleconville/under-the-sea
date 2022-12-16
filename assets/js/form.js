@@ -18,3 +18,12 @@ document.getElementById('form')
         });
     toggleThankYouMessage();
 });
+
+function toggleThankYouMessage() {
+    let html = `
+            <p class="text-center fs-2">Thank you for leaving a message.</p>
+            
+            `;
+    document.getElementById('form').innerHTML = html;
+}
+  
