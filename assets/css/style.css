@@ -229,7 +229,6 @@ nav a {
     font-family: 'Hind', sans-serif;
     margin-bottom: 25px;
     text-align: center;
-    list-style: none;
 }
 
 /* Add style for contact page */
@@ -282,17 +281,38 @@ nav a {
     font-size: 3em;
   }
 
-  @media (max-width: 640px) {
+@media (max-width: 640px) {
    
-    .container-nav {
-        flex-direction: column;
-    }
+.container-nav {
+     flex-direction: column;
+}
 
-    nav ul {
-        flex-direction: column;
-    }
+ nav ul {
+    flex-direction: column;
+}
 
-    nav li {
-        margin: 0.8em 0;
+nav li {
+    margin: 0.8em 0;
+}
+
+.rules-container {  
+    margin: 100px 50px 10px;
+    padding: 10px;
+}
+  }
+
+  @media (max-width: 999px) {
+   
+    .rules-container {  
+        margin: 100px 50px 10px;
+        padding: 10px;
+    }
+  }
+
+  @media (max-width: 1400px) {
+   
+    .rules-container {  
+        margin: 100px 50px 10px;
+        padding: 10px;
     }
   }
