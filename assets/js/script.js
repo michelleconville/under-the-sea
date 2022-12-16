@@ -3,6 +3,7 @@
  const moveContainer = document.querySelector(".moves");
  const timeContainer = document.querySelector(".timer");
  const rules = document.getElementById('rules');
+ const finish = document.getElementById('finish');
  const MAX_MATCH = 8;
  
  let gameOn = false;
@@ -161,7 +162,6 @@ function closeRules() {
 }
 
 //Game over function
-
 function finishGame() {
     stopTime();
     showfinshMessage();
