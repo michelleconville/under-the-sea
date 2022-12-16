@@ -165,32 +165,34 @@ function closeRules() {
  * Sends an email to site owner through emailJS after the submit button is clicked 
  * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
  */
-const sendFormButton = document.getElementById('send-btn');
+// const sendFormButton = document.getElementById('send-btn');
 
-document.getElementById('contact-form').addEventListener('submit', function(event) {
-   event.preventDefault();
-   emailjs.init("user_ky3jHn7C0IfrC1dfTWauP");
-    sendFormButton.value = "Sending..."; 
-
-   let serviceID = 'default_service';
-   let templateID = 'under_the_sea';
-
-   emailjs.sendForm(serviceID, templateID, this)
-    .then(() => {
-     sendFormButton.value = "Send";
-    formSubmittedMessage();
-    }, (err) => {
-    sendFormButton.value = 'Send Email';
-      console.log(JSON.stringify(err));
+document.addEventListener('DOMContentLoaded', function () {
+    document.getElementById('contact-form').addEventListener('submit', function (event) {
+        event.preventDefault(); // prevents default submit event
+       emailjs.init("user_ky3jHn7C0IfrC1dfTWauP");
+        emailjs.sendForm('default_service', 'under_the_sea', this)
+            .then(function () {
+                // success sending email
+            }, function (error) {
+                // error message
+                console.log('FAILED...', error);
+            });
+        toggleThankYouMessage();
     });
 });
 
-function formSubmittedMessage() {
-    let html = 
-    <p>
-        ADD MESSAGE HERE
-    </p>
-    document.getElementById("contact-form").innerHTML = message;
+/**
+ * Removes the contact forme and displays a thank you message on the contact page after form submision
+ */
+function toggleThankYouMessage() {
+    let html = `
+            <p class="text-center fs-2">Thank you for leaving a message.</p>
+            `;
+    document.getElementById('container').innerHTML = html;
 }
+
+
+
 
 
