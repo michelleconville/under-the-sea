@@ -32,22 +32,23 @@
     </header>
     <main>
         <form id="form" class="form-container">
-            <p>Please leave some feedback</p>
+            <h2>Please leave some feedback</h2>
+            <br>
             <div class="field">
               <label for="name" class="form-label">Name</label>
-              <input type="text" class="form-control" id="name" name="name" required>
+              <input class="text-input" type="text" class="form-control" id="name" name="name" required>
             </div>
             <div class="field">
                 <label for="email" class="form-label">Email address</label>
-                 <input type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
-                 <div id="emailHelp" class="form-text">Your information will not be shared.</div>
-            </div>
+                 <input class="text-input" type="email" class="form-control" id="email" name="email" aria-describedby="emailHelp" required>
+            
             <div class="field">
              <label for="message" class="form-label">Message</label>
-                          <textarea class="form-control" id="message" rows="4" name="message" required></textarea>
+             
+             <input class=" form-control text-input" type="text" id="message" name="message" required>
             </div>
           
-            <input type="submit" id="button" value="Send Email" >
+            <input type="submit" id="button" value="Send Email" class="game-btn">
           </form>
           
           

@@ -240,3 +240,12 @@ nav a {
     color: #DBFCFF;
   }
   
+  .text-input {
+    
+    color: #0d0d2f;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px;
+    border: 1px solid #0d0d2f;
+    border-radius: 2px;
+}
