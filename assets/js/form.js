@@ -22,7 +22,8 @@ document.getElementById('form')
 function toggleThankYouMessage() {
     let html = `
             <p class="text-center fs-2">Thank you for leaving a message.</p>
-            
+            <br>
+            <a href="index.html" class="game-btn">Return to game</a>
             `;
     document.getElementById('form').innerHTML = html;
 }
