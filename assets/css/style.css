@@ -268,3 +268,10 @@ nav a {
     color: #12232e;
     border-radius: 20px;
 }
+
+/*Style the close button*/
+.close {
+    align-self: flex-end;
+    color: #12232E;
+    font-size: 3em;
+  }
