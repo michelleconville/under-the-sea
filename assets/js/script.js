@@ -53,7 +53,7 @@
      if (isMatch) pairMatch();
      else noMatch();
  
-     if (perfectMatch === MAX_MATCH) winGame();
+     if (perfectMatch === MAX_MATCH) finishGame();
  }
  
  // matched cards will be disabled for clicks once they are flipped
@@ -160,38 +160,12 @@ function closeRules() {
     rules.style.display = "none";
 }
 
-/**
- * Add an eventListener to listen for the submit.
- * Sends an email to site owner through emailJS after the submit button is clicked 
- * Code written with the help of the official EmailJS tuttorial https://www.emailjs.com/docs/tutorial/creating-contact-form/
- */
-// const sendFormButton = document.getElementById('send-btn');
+//Game over function
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.getElementById('contact-form').addEventListener('submit', function (event) {
-        event.preventDefault(); // prevents default submit event
-       emailjs.init("user_ky3jHn7C0IfrC1dfTWauP");
-        emailjs.sendForm('default_service', 'under_the_sea', this)
-            .then(function () {
-                // success sending email
-            }, function (error) {
-                // error message
-                console.log('FAILED...', error);
-            });
-        toggleThankYouMessage();
-    });
-});
-
-/**
- * Removes the contact forme and displays a thank you message on the contact page after form submision
- */
-function toggleThankYouMessage() {
-    let html = `
-            <p class="text-center fs-2">Thank you for leaving a message.</p>
-            `;
-    document.getElementById('container').innerHTML = html;
+function finishGame() {
+    stopTime();
+    showfinshMessage();
 }
-
 
 
 
