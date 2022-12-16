@@ -164,7 +164,17 @@ function closeRules() {
 //Game over function
 function finishGame() {
     stopTime();
-    showfinshMessage();
+    showfinishMessage();
+}
+
+ // Finish message pop up 
+ function showfinishMessage() {
+    finish.style.display = "block";
+    finalTime = timeContainer.innerHTML;
+    // showing moves and time on modal
+    document.getElementById("finalMove").innerHTML = moves;
+    document.getElementById("totalTime").innerHTML = finalTime;
+    reset();
 }
 
 
