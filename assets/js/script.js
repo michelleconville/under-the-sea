@@ -177,6 +177,12 @@ function finishGame() {
     reset();
 }
 
+// when the user clicks the (x) To close modal
+window.onclick = function(event) {
+    if (event.target.id == 'close') {
+        document.getElementById('finish').style.display = "none";
+    }
+}
 
 
 
