@@ -272,14 +272,23 @@ nav a {
     margin: 100px 500px 100px;
     color: #12232e;
     border-radius: 20px;
+    border: 0.8em solid #12232e;
+    font-weight: 300;
 }
 
 /*Style the close button*/
 .close {
-    align-self: flex-end;
+    align-items: flex-end;
     color: #12232E;
     font-size: 3em;
   }
+
+  .close:hover,
+.close:focus {
+  color: #12232E;
+  text-decoration: none;
+  cursor: pointer;
+}
 
 @media (max-width: 640px) {
    
@@ -312,7 +321,7 @@ nav li {
         margin: 100px 50px 10px;
         padding: 10px;
     }
-    
+
     .finish-content {  
         margin: 100px 50px 10px;
         padding: 10px;
