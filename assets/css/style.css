@@ -195,7 +195,6 @@ nav a {
 }
 
 /* styling the rules modal */
-
 .rules {
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
@@ -209,12 +208,17 @@ nav a {
 
 .rules-container {
     font-family: 'Hind', sans-serif;
-    background-color: #DBFCFF;
+    border: 0.8em solid #DBFCFF;
+    background-color: #12232e;
     margin: 100px 500px 100px;
     color: #12232e;
     border-radius: 20px;
+    padding: 50px;
 }
 
+.rules-content {
+    color: #DBFCFF;
+}
 .rules-list {
     font-weight: 300;
     margin-top: 1rem;
@@ -225,6 +229,7 @@ nav a {
     font-family: 'Hind', sans-serif;
     margin-bottom: 25px;
     text-align: center;
+    list-style: none;
 }
 
 /* Add style for contact page */
@@ -241,15 +246,16 @@ nav a {
   }
   
   .text-input {
-    
     color: #0d0d2f;
     width: 100%;
-    height: 25px;
+    height: 30px;
     margin: 5px 0 20px;
     border: 1px solid #0d0d2f;
     border-radius: 2px;
+    text-align: left;
 }
 
+/*Add style the Finish modal*/ 
 .finish {
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
