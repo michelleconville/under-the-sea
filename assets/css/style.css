@@ -281,3 +281,18 @@ nav a {
     color: #12232E;
     font-size: 3em;
   }
+
+  @media (max-width: 640px) {
+   
+    .container-nav {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 0.8em 0;
+    }
+  }
