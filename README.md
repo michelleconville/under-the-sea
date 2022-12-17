@@ -68,6 +68,8 @@ The colour scheme was chosen to tie in with the under the sea theme, with the di
 
 ![Colour Palette](assets/images/readme-images/under-the-sea-colours.png)
 
+Light Cian is used throughout the site, mainly on the navigation bar and the font colour. Gunmetal is use for the game cards and the buttons. The other colours are sprinkled througout the website.
+
 ### Fonts
 The fonts used are Montserrat and Hind. 
 Montserrat is used for the logo and the headers and Hind for the rest of the website. 
@@ -146,20 +148,28 @@ All site wide features will be fully responsive on all devices.
 *   The memory game card layout will be using a 4x4 style grid, with a total of 16 cards.
 *   User stories covered: 2 and 3
 
+![memory-cards](assets/images/readme-images/card-grid.JPG)
+
 #### Timer and Move counters 
 *   Timer and move counters will be on the landing page above the game 
 *   The game timer will be activated once the user flips the first card, the moves tracker will start when the second card has been flipped over, the moves tracker will count each match attempted.
 *   User stories covered: 2 and 3
+
+![memory-cards](assets/images/readme-images/timer-moves-counter.JPG)
 
 #### Restart button
 *   A restart button will be on the landing page under the game that when clicked will reset the game.
 *   The restart button, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the time and moves counter back to 0.
 *   User stories covered: 4
 
+![memory-cards](assets/images/readme-images/restart-button.JPG)
+
 #### Rules modal
 *   In the navigation bar and rules modal will be located
 *   The rules modal will explain how to play the game. A play button will be included on the modal to bring the user back to the game
 *   User stories covered: 1 and 7
+
+![rules-modal](assets/images/readme-images/rules-modal.JPG)
 
 ### Contact page
 #### Contact form
@@ -173,9 +183,13 @@ All site wide features will be fully responsive on all devices.
 *   This will allow the user to provide feedback if they have any questions or suggestions. The play again button will allow the user be brought back to the gameS
 *   User stories covered: 6
 
+![form](assets/images/readme-images/contact-form.JPG)
+
 #### Thank-you message
 *   On successful submission of the contact form, the user will be navigated to thank-you page displaying a thank you message.
 *   This will allow the user to know their message has been received. 
+
+![thank-you](assets/images/readme-images/thankyou-message.JPG)
 
 ### Future features to be implemented
 
