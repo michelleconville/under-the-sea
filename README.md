@@ -75,9 +75,31 @@ Montserrat is used for the logo and the headers and Hind for the rest of the web
 Fonts were imported from [Google Fonts](https://fonts.google.com/). The backup font of sans-serif was used in case the fonts do not load for the user.
 
 ### Structure
+The *Under the Sea* website is structured in a user friendly and easy to learn way. Upon arriving to the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. The navigation bar is located on all pages created.
 
+The website consists of 2 pages:
+*   The homepage displays the game, the time and moves counters sit above the game and the restart button to resrart the games sits under it
+
+A rules modal can be located from the homepage in the navigation bar
+
+When the game is completed a finish modal displays
+
+*   A Contact Us page with a contact form
+
+A thank you page when a user completes the contact us form and 404 page are also available.
 
 ### Wireframes
+ <details>
+<summary>Homepage</summary>
+
+![index.html](assets/images/readme-images/wireframe-homepage.JPG) 
+</details>
+
+ <details>
+<summary>Contact</summary>
+
+![contact.html](assets/images/readme-images/wireframe-contact.JPG)
+</details>
 
 ## Features 
 
