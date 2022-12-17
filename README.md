@@ -114,6 +114,28 @@ A thank you page when a user completes the contact us form and 404 page are also
 </details>
 
 ## Features 
+### Site wide
+
+All site wide features will be fully responsive on all devices.
+
+#### Navigation bar
+*   This will contain the website name and links to the Home, Rules and Contact pages and will be responsive on all devices. 
+    *   The website name will be linked to the landing page for ease of use for the user, no matter what page the user is on, by clicking on the name, the user will be brought back to the landing page.
+*   This will allow users to easily navigate between the pages within the site on any size device.
+
+![navigation bar](assets/images/readme-images/navigation-bar.JPG)
+
+#### Favicon
+*   A site wide favicon will be implemented with a blue fish icon for the *Under the Sea* site.
+*   This will provide an image in the tabs header to allow the user to easily identify the website if they have multiple tabs open.
+
+![Favicon icon](assets/images/favicon/favicon-32x32.png)
+
+#### 404 page
+*   A 404 page will be implemented and will display if a user navigates to a broken link.
+*   The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+
+![footer](assets/images/readme-images/404error.JPG)
 
 
 ## Testing
@@ -205,12 +227,8 @@ The repository will now be cloned on your local machine for use.
 *   Techsini.com - Used to generate the website mock-ups
 *   EmailJs - Used tosend emails from the website
 
-
-**Programs used**
-
-
-
 ## Credits
+
 
 ### Media
 
