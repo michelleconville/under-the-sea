@@ -47,6 +47,10 @@ View the [Live site](https://michelleconville.github.io/under-the-sea/)
 ### Target Audience
 
 ### User expectations 
+*   User-friendly and intuitive to navigation
+*   Fast site performance
+*   Accessible to all users
+*   Responsive across devices
 
 ### User stories
 #### Users
@@ -58,8 +62,7 @@ View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
 #### Site owner
 Owner stories 
-6.	I want users to be able to contact us on social media
-7.	I want users to be able to contact us
+6.	I want users to be able to contact us
 
 
 ## Design
@@ -67,7 +70,9 @@ Owner stories
 
 
 ### Fonts
-
+The fonts used are Montserrat and Hind. 
+Montserrat is used for the logo and the headers and Hind for the rest of the website. 
+Fonts were imported from [Google Fonts](https://fonts.google.com/). The backup font of sans-serif was used in case the fonts do not load for the user.
 
 ### Structure
 
