@@ -45,26 +45,23 @@
             <br>
             <div class="field">
                 <label for="name" class="form-label">Name</label>
-                <input class="text-input" type="text" class="form-control" id="name" name="name" required>
+                <input class="text-input form-control" type="text" id="name" name="name" required>
             </div>
             <div class="field">
                 <label for="email" class="form-label">Email address</label>
-                <input class="text-input" type="email" class="form-control" id="email" name="email"
-                    aria-describedby="emailHelp" required>
-
-                <div class="field">
-                    <label for="message" class="form-label">Message</label>
-
-                    <input class=" form-control text-input" type="text" id="message" name="message" required>
-                </div>
-
-                <input type="submit" id="button" value="Send Email" class="game-btn">
+                <input class="text-input form-control" type="email" id="email" name="email" required>
+            </div>
+            <div class="field">
+                <label for="message" class="form-label">Message</label>
+                <input class=" form-control text-input" type="text" id="message" name="message" required>
+            </div>
+            <input type="submit" id="button" value="Send Email" class="game-btn">
         </form>
     </main>
 
     <script src="assets/js/form.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
-    <script type="text/javascript">
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script>
         emailjs.init('Ni4d4mUfF-gH_Ib59')
     </script>
 </body>
