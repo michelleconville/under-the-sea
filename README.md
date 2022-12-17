@@ -33,6 +33,9 @@
 ## Project overview
 Project 2 for Code Institute Full-stack development program: JavaScript Essentials.
 
+![The website displaying on all devices](assets/images/readme-images/under-the-sea-mockup.JPG)
+
+View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
 ### Company goals
 
