@@ -74,7 +74,7 @@
          secondCard.classList.remove('flip');
  
          resetBoard();
-     }, 900);
+     }, 700);
  
      
      addMove();
@@ -185,4 +185,10 @@ window.onclick = function(event) {
 }
 
 
+// Removing Click to start overlay text
+const overlay = document.getElementsByClassName('overlay-text');
+overlay.addEventListener('click', removeOverlay);
 
+function removeOverlay() {
+    overlay.styleyle.display = "none";
+}
