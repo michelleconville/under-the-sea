@@ -89,16 +89,28 @@ When the game is completed a finish modal displays
 A thank you page when a user completes the contact us form and 404 page are also available.
 
 ### Wireframes
- <details>
+<details>
 <summary>Homepage</summary>
 
-![index.html](assets/images/readme-images/wireframe-homepage.JPG) 
+![Homepage](assets/images/readme-images/wireframe-homepage.JPG) 
 </details>
 
- <details>
+<details>
 <summary>Contact</summary>
 
-![contact.html](assets/images/readme-images/wireframe-contact.JPG)
+![Contact](assets/images/readme-images/wireframe-contact.JPG)
+</details>
+
+<details>
+<summary>Contact</summary>
+
+![Rules modal](assets/images/readme-images/wireframe-rules-modal.JPG)
+</details>
+
+<details>
+<summary>404 error</summary>
+
+![404 error](assets/images/readme-images/)
 </details>
 
 ## Features 
@@ -179,6 +191,19 @@ The repository will now be cloned on your local machine for use.
 ## Technologies used
 **Languages used**
 
+*   HTML - The structure of the Website was developed using HTML as the main language.
+*   CSS - The website was styled using custom CSS in an external file.
+*   JavaSrcipt - The game play logic was created using JavaScript in an external file.
+
+**Programs used**
+*   GitHub - Source code is hosted on GitHub and deployed using Git Pages.
+*   Gitpod - Used to commit and push code during the development of the website
+*   Font Awesome - Icons were obtained from [Font Awesome](https://fontawesome.com/) and used for logo image and the social media icons in the footer.
+*   Photoshop - Images used throughout the website were modified using Adobe Photoshop
+*   Favicon.io - The favicon files were created at https://favicon.io/favicon-converter/
+*   Balsamiq - Wireframes were created using Balsamiq
+*   Techsini.com - Used to generate the website mock-ups
+*   EmailJs - Used tosend emails from the website
 
 
 **Programs used**
