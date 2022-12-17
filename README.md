@@ -171,6 +171,17 @@ All site wide features will be fully responsive on all devices.
 *   This will allow the user to provide feedback if they have any questions or suggestions. The play again button will allow the user be brought back to the gameS
 *   User stories covered: 6
 
+#### Thank-you message
+*   On successful submission of the contact form, the user will be navigated to thank-you page displaying a thank you message.
+*   This will allow the user to know their message has been received. 
+
+### Future features to be implemented
+
+*   Scoreboard
+
+The ability for users to track their scores
+
+
 ## Testing
 
 ### Validation
@@ -187,12 +198,26 @@ All site wide features will be fully responsive on all devices.
 
 
 ### Browser compatibility
+The website was tested on the following browsers:
+
+*   Google Chrome
+*   Mozilla Firefox
+*   Microsoft Edge
 
 ### Responsiveness
+All pages were tested to ensure responsiveness on screen sizes from 320px and upwards on the following browsers and devices
 
 #### Browsers
+*   Google Chrome
+*   Mozilla Firefox
+*   Microsoft Edge
 
 #### Devices
+*   iPhone SE
+*   OnePlus Nord
+*   Dell laptop
+
+In addition to the above listed devices, the Google Chrome Developer Tools device toggling option for all available devices was used.
 
 
 ### Testing user stories
