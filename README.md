@@ -64,7 +64,9 @@ This game was designed for both children and adults in mind
 
 ## Design
 ### Colour
+The colour scheme was chosen to tie in with the under the sea theme, with the different shades of blue.
 
+![Colour Palette](assets/images/readme-images/under-the-sea-colours.png)
 
 ### Fonts
 The fonts used are Montserrat and Hind. 
