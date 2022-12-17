@@ -2,8 +2,6 @@
 
 ## Table of Content
 1. [Project overview](#project-overview)
-    1. [Company goals](#company-goals)
-    2. [Customer goals](#Customer-goals)
 2. [User Experience](#user-experience)
     1. [Target Audience](#target-audience)
     2. [User expectations](#user-expectations)
@@ -37,14 +35,13 @@ Project 2 for Code Institute Full-stack development program: JavaScript Essentia
 
 View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
-### Company goals
-
-
-### Customer goals
-
 ## User experience
 
 ### Target Audience
+This game was designed for both children and adults in mind
+*   For children - who may just want to find the matching pairs
+*   For adults - who may wish to challenge themselves and attempt to beat their own time and moves taken on each game
+
 
 ### User expectations 
 *   User-friendly and intuitive to navigation
@@ -61,8 +58,8 @@ View the [Live site](https://michelleconville.github.io/under-the-sea/)
 5.	I want to receive a notification what the game is complete
 
 #### Site owner
-Owner stories 
 6.	I want users to be able to contact us
+7.  I want users to understand the game
 
 
 ## Design
@@ -78,13 +75,17 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). The backup f
 The *Under the Sea* website is structured in a user friendly and easy to learn way. Upon arriving to the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. The navigation bar is located on all pages created.
 
 The website consists of 2 pages:
-*   The homepage displays the game, the time and moves counters sit above the game and the restart button to resrart the games sits under it
+*   The homepage 
+
+This page displays the game, the time and moves counters sit above the game and the restart button to resrart the games sits under it
 
 A rules modal can be located from the homepage in the navigation bar
 
 When the game is completed a finish modal displays
 
-*   A Contact Us page with a contact form
+*   The Contact page
+
+This page displays a contact form
 
 A thank you page when a user completes the contact us form and 404 page are also available.
 
@@ -137,6 +138,38 @@ All site wide features will be fully responsive on all devices.
 
 ![footer](assets/images/readme-images/404error.JPG)
 
+### Landing page
+
+#### Memory game cards
+*   The memory game card layout will be using a 4x4 style grid, with a total of 16 cards.
+*   User stories covered: 2 and 3
+
+#### Timer and Move counters 
+*   Timer and move counters will be on the landing page above the game 
+*   The game timer will be activated once the user flips the first card, the moves tracker will start when the second card has been flipped over, the moves tracker will count each match attempted.
+*   User stories covered: 2 and 3
+
+#### Restart button
+*   A restart button will be on the landing page under the game that when clicked will reset the game.
+*   The restart button, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the time and moves counter back to 0.
+*   User stories covered: 4
+
+#### Rules modal
+*   In the navigation bar and rules modal will be located
+*   The rules modal will explain how to play the game. A play button will be included on the modal to bring the user back to the game
+*   User stories covered: 1 and 7
+
+### Contact page
+#### Contact form
+*   The contact page will have a contact form to all users to give feedback. The form will have the follow fields
+    *   Name
+    *   Email Address
+    *   Text field for the message
+    *   Send email button
+    *   Paly Again! button
+
+*   This will allow the user to provide feedback if they have any questions or suggestions. The play again button will allow the user be brought back to the gameS
+*   User stories covered: 6
 
 ## Testing
 
