@@ -303,11 +303,15 @@ The repository will now be cloned on your local machine for use.
 
 ## Credits
 
-
 ### Media
-
+*   Animated sea animals images were cropped from freepik.com image
 
 ### Code
+*   [youtube](https://www.youtube.com/watch?v=28VfzEiJgy4) inspiration was taken from this tutorial.
+*   W3 Schools was used as a reference point for HTML, CSS and JavaScript
+*   MDN Web Docs was also used as a reference point for HTML, CSS and JavaScript
+*   [Marina Ferreira tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) was followed and some JavaScript code was taken and adapted to my game.
+*   
 
 ##  Acknowledgements
 Special thanks to my mentor Daisy for her assistance throughout this project.
