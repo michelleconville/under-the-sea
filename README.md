@@ -17,11 +17,13 @@
     	1. [HTML validation](#html-validation)
         2. [CSS validation](#css-validation)
         3. [Accessibility](#accessibility)
-        4. [Performance](#performance)
+        4. [JavaScript](#javascript)
+        5. [Performance](#performance)
     2. [Browser compatibility](#browser-compatibility)
     3. [Responsiveness](#responsiveness)
-    3. [Testing user stories](#testing-user-stories)
-    4. [Bugs](#bugs)
+    4. [Testing user stories](#testing-user-stories)
+    5. [Further testing](#further-testing)
+    6. [Bugs](#bugs)
 6. [Deployment](#deployment)
 7. [Technologies used](#technologies-used)
 8. [Credits](#credits)
@@ -39,8 +41,8 @@ View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
 ### Target Audience
 This game was designed for both children and adults in mind
-*   For children - who may just want to find the matching pairs
-*   For adults - who may wish to challenge themselves and attempt to beat their own time and moves taken on each game
+*   For children who may just want to find the matching pairs
+*   For adults who may want to challenge themselves and attempt to beat their own time and moves on each game
 
 
 ### User expectations 
@@ -78,7 +80,7 @@ Fonts were imported from [Google Fonts](https://fonts.google.com/). The backup f
 ### Structure
 The *Under the Sea* website is structured in a user friendly and easy to learn way. Upon arriving to the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. The navigation bar is located on all pages created.
 
-The website consists of 2 pages:
+The website consists of 3 pages:
 *   The homepage 
 
 This page displays the game, the time and moves counters sit above the game and the restart button to resrart the games sits under it
@@ -92,6 +94,10 @@ When the game is completed a finish modal displays
 This page displays a contact form
 
 A thank you page when a user completes the contact us form and 404 page are also available.
+
+*   The 404 page
+
+This page allows the user know something has gone wrong, there is a button that re-directs the user to the main page.
 
 ### Wireframes
 <details>
@@ -261,7 +267,7 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 
 #### Accessibility
 
-
+NEEDS TO BE ADDED
 
 #### Performance
 
@@ -360,8 +366,10 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 |-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
 | Rules modal | On landing page click on the Rules link in the Navigation bar | Modal opens as expected | Works as expected |
 
+### Further testing
+Asked friends and family to look at the site on their devices and report any issues they came found.
 
-## Bugs
+### Bugs
 
 | **Bugs**                                                     | **Fix**                                                    |
 |--------------------------------------------------------------|----------------------------------------------------------- |
@@ -370,6 +378,7 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 | Click to Start overlay appearing after selecting the restart button | add an addEventListener and create a ready function |
 | Colour contrast failed on Timer and Moves counter | Change the colour from white to black                                 |
 | HTML error - Section lacks heading | Remove section tags and add an additional div tags                                   |
+
 
 
 ## Deployment
@@ -431,7 +440,6 @@ The repository will now be cloned on your local machine for use.
 
 ### Media
 *   Animated sea animals images were cropped from freepik.com image
-<a href="https://www.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_8030430.htm#query=404%20found&position=2&from_view=keyword">Image by storyset</a> on Freepik
 
 ### Code
 *   [youtube](https://www.youtube.com/watch?v=28VfzEiJgy4) inspiration was taken from this tutorial.
@@ -439,6 +447,12 @@ The repository will now be cloned on your local machine for use.
 *   W3 Schools was used as a reference point for HTML, CSS and JavaScript
 *   MDN Web Docs was also used as a reference point for HTML, CSS and JavaScript
 *   [stackoverflow](https://stackoverflow.com/) was used to troubleshoot issues I came across
+
+### Other resources used
+*   [kubowania](https://github.com/kubowania/memory-game)
+*   [taniarascia](https://github.com/taniarascia/memory)
+*   [4n4ru](https://github.com/4n4ru/CI-P2-GuessingBee)
+*   [moirahartigan] (https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game)
 
 ##  Acknowledgements
 Special thanks to my mentor Daisy for her assistance throughout this project.
