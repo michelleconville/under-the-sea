@@ -247,9 +247,6 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 </details>
 
 
-
-
-
 #### Accessibility
 
 
@@ -403,10 +400,10 @@ The repository will now be cloned on your local machine for use.
 
 ### Code
 *   [youtube](https://www.youtube.com/watch?v=28VfzEiJgy4) inspiration was taken from this tutorial.
+*   [Marina Ferreira tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) was followed and some JavaScript code was taken and adapted to my game.
 *   W3 Schools was used as a reference point for HTML, CSS and JavaScript
 *   MDN Web Docs was also used as a reference point for HTML, CSS and JavaScript
-*   [Marina Ferreira tutorial](https://marina-ferreira.github.io/tutorials/js/memory-game/) was followed and some JavaScript code was taken and adapted to my game.
-*   
+*   [stackoverflow](https://stackoverflow.com/) was used to troubleshoot issues I came across
 
 ##  Acknowledgements
 Special thanks to my mentor Daisy for her assistance throughout this project.
