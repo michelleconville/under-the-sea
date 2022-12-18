@@ -12,6 +12,7 @@
  let lockBoard = false; 
  let firstCard, secondCard; 
  let moves = 0;
+ let finalTime = "";
  
  // Events
  cards.forEach(card => card.addEventListener('click', flipCard)); 
@@ -174,7 +175,7 @@ function finishGame() {
     // showing moves and time on modal
     document.getElementById("finalMove").innerHTML = moves;
     document.getElementById("totalTime").innerHTML = finalTime;
-    reset();
+    restart();
 }
 
 // when the user clicks the (x) To close modal
@@ -182,7 +183,7 @@ window.onclick = function(event) {
     if (event.target.id == 'close') {
         document.getElementById('finish').style.display = "none";
     }
-}
+};
 
 
 // Removing Click to start overlay text

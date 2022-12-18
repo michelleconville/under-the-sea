@@ -192,7 +192,6 @@ All site wide features will be fully responsive on all devices.
 ![thank-you](assets/images/readme-images/thankyou-message.JPG)
 
 ### Future features to be implemented
-
 *   Scoreboard
 
 The ability for users to track their scores
@@ -203,6 +202,14 @@ The ability for users to track their scores
 ### Validation
 
 #### HTML validation
+The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
+
+
+<details>
+<summary>Contact page</summary>
+
+![Contact page](assets/images/readme-images/html-validation-contact.JPG.JPG)
+</details>
 
 
 #### CSS validation
@@ -240,6 +247,16 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 **First time users**
 
 **Site owner**
+6. I want users to be able to contact us
+
+| Feature         | Action                                                         | Expected result                 | Actual Result     |
+|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
+| Contact page | On landing page click on the Contact link in the Navigation bar | Data submitted via contact form | Works as expected |
+
+7. I want users to understand the game
+| Feature         | Action                                                         | Expected result                 | Actual Result     |
+|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
+| Rules modal | On landing page click on the Rules link in the Navigation bar | Modal opens as expected | Works as expected |
 
 
 ## Bugs
@@ -305,6 +322,7 @@ The repository will now be cloned on your local machine for use.
 
 ### Media
 *   Animated sea animals images were cropped from freepik.com image
+<a href="https://www.freepik.com/free-vector/oops-404-error-with-broken-robot-concept-illustration_8030430.htm#query=404%20found&position=2&from_view=keyword">Image by storyset</a> on Freepik
 
 ### Code
 *   [youtube](https://www.youtube.com/watch?v=28VfzEiJgy4) inspiration was taken from this tutorial.
