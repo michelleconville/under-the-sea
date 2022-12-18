@@ -221,6 +221,35 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 
 #### CSS validation
 
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+
+<details>
+<summary>Whole site</summary>
+
+![whole site](assets/images/readme-images/css-validation.JPG)
+</details>
+
+
+### JavaScript
+
+JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascript files. No significant issues were found.
+
+<details>
+<summary>script.js</summary>
+
+![script.js](assets/images/readme-images/script-js-file.JPG)
+</details>
+
+<details>
+<summary>form.js</summary>
+
+![form.js](assets/images/readme-images/form-js-file.JPG)
+</details>
+
+
+
+
+
 #### Accessibility
 
 
@@ -304,7 +333,12 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 
 ## Bugs
 
-### Unfixed bugs
+| **Bugs**                                                     | **Fix**                                                    |
+|--------------------------------------------------------------|----------------------------------------------------------- |
+| Button spacing on contact form            | Add padding to the game-btn class in the media query in the CSS file          |
+| Navigation bar not working correctly on contact page          | Remove bootstrape and use css to format the form          |
+| Click to Start overlay appearing after selecting the restart button | add an addEventListener and create a ready function |
+| Colour contrast failed on Timer and Moves counter | Change the colour from white to black                                 |
 
 ## Deployment
 ### Project creation

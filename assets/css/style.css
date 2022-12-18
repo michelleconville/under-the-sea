@@ -214,6 +214,7 @@ nav a {
     margin: 100px 500px 100px;
     border-radius: 20px;
     padding: 50px;
+    
 }
 
 .rules-content {
@@ -274,20 +275,6 @@ nav a {
     border-radius: 20px;
     border: 0.8em solid #12232e;
     font-weight: 300;
-}
-
-/*Style the close button*/
-.close {
-    align-items: flex-end;
-    color: #12232E;
-    font-size: 3em;
-  }
-
-  .close:hover,
-.close:focus {
-  color: #12232E;
-  text-decoration: none;
-  cursor: pointer;
 }
 
 @media (max-width: 640px) {

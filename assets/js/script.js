@@ -178,13 +178,6 @@ function finishGame() {
     restart();
 }
 
-// when the user clicks the (x) To close modal
-window.onclick = function(event) {
-    if (event.target.id == 'close') {
-        document.getElementById('finish').style.display = "none";
-    }
-};
-
 
 // Removing Click to start overlay text
 if (document.readyState == 'loading') {
