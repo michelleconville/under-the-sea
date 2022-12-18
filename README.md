@@ -146,7 +146,7 @@ All site wide features will be fully responsive on all devices.
 
 #### Memory game cards
 *   The memory game card layout will be using a 4x4 style grid, with a total of 16 cards.
-*   User stories covered: 2 and 3
+*   User stories covered: 1
 
 ![memory-cards](assets/images/readme-images/card-grid.JPG)
 
@@ -167,9 +167,16 @@ All site wide features will be fully responsive on all devices.
 #### Rules modal
 *   In the navigation bar and rules modal will be located
 *   The rules modal will explain how to play the game. A play button will be included on the modal to bring the user back to the game
-*   User stories covered: 1 and 7
+*   User stories covered: 7
 
 ![rules-modal](assets/images/readme-images/rules-modal.JPG)
+
+#### Finish modal
+*   Once the game is completed a finish modal will appear
+*   The finsh modal will indicate the game is over, it will let the user know how many moves and the total time to complete the game. A play again button will be included on the modal to bring the user back to the game.
+*   User stories covered: 2, 3, 5
+
+![rules-modal](assets/images/readme-images/finish-modal.JPG)
 
 ### Contact page
 #### Contact form
@@ -246,7 +253,42 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 ### Testing user stories
 **First time users**
 
+1. I want to test my memory skill in a fun environment
+
+| Feature         | Action                                                         | Expected result                 | Actual Result     |
+|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
+| Memory game cards | On landing page click on the cards to play the game | Game starts | Works as expected |
+
+2.  I want to see how long it takes me to complete the challenge
+
+| Feature               | Action                                                           | Expected result                                | Actual Result     |
+|-----------------------|------------------------------------------------------------------|------------------------------------------------|-------------------|
+| Timer counter  | On landing page click on a card to start the game timer  | Timer counter starts  |  Works as expected |
+| Finish modal | On landing page, find all matching cards | On landing page, find all matching cards | Works as expected |
+
+
+3.  I want to see the number of moves it takes me to complete the challenge
+
+| Feature               | Action                                                           | Expected result                                | Actual Result     |
+|-----------------------|------------------------------------------------------------------|------------------------------------------------|-------------------|
+| Moves counter  | On landing page flip over two cards to start the moves counter | Moves counter starts |      Works as expected |
+| Finish modal | On landing page, find all matching cards | Finish modal appears with total number of moves | Works as expected |
+
+4. I want to be able to reset the game at any time
+
+| Feature         | Action                                                         | Expected result                 | Actual Result     |
+|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
+| Restart button | On landing page, once the game has started, select the restart button | Cards, timer and moves counter are reset | Works as expected |
+
+5. I want to receive a notification what the game is complete
+
+| Feature         | Action                                                         | Expected result                 | Actual Result     |
+|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
+| Finish modal | On landing page, find all matching cards | Finish modal appears | Works as expected |
+
+
 **Site owner**
+
 6. I want users to be able to contact us
 
 | Feature         | Action                                                         | Expected result                 | Actual Result     |
@@ -254,6 +296,7 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 | Contact page | On landing page click on the Contact link in the Navigation bar | Data submitted via contact form | Works as expected |
 
 7. I want users to understand the game
+
 | Feature         | Action                                                         | Expected result                 | Actual Result     |
 |-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
 | Rules modal | On landing page click on the Rules link in the Navigation bar | Modal opens as expected | Works as expected |
