@@ -35,6 +35,8 @@ Project 2 for Code Institute Full-stack development program: JavaScript Essentia
 
 ![The website displaying on all devices](assets/images/readme-images/under-the-sea-mockup.JPG)
 
+The goal of this project is to build an interactive memory game using html, css and javascript.
+
 View the [Live site](https://michelleconville.github.io/under-the-sea/)
 
 ## User experience
@@ -65,6 +67,9 @@ This game was designed for both children and adults in mind
 
 
 ## Design
+
+The theme of this website is Under the Sea. 
+
 ### Colour
 The colour scheme was chosen to tie in with the under the sea theme, with the different shades of blue.
 
@@ -72,10 +77,16 @@ The colour scheme was chosen to tie in with the under the sea theme, with the di
 
 Light Cian is used throughout the site, mainly on the navigation bar and the font colour. Gunmetal is use for the game cards and the buttons. The other colours are sprinkled througout the website.
 
+### Images
+The sea animals were selected to add additional colour to the game once the cards had been flipped. 
+
+![memory-cards-images](assets/images/readme-images/under-the-sea-images.jpg)
+
 ### Fonts
 The fonts used are Montserrat and Hind. 
 Montserrat is used for the logo and the headers and Hind for the rest of the website. 
 Fonts were imported from [Google Fonts](https://fonts.google.com/). The backup font of sans-serif was used in case the fonts do not load for the user.
+
 
 ### Structure
 The *Under the Sea* website is structured in a user friendly and easy to learn way. Upon arriving to the website, the user sees a navigation bar with the logo on the left-hand side and the navigation links to the right. The navigation bar is located on all pages created.
@@ -150,11 +161,18 @@ All site wide features will be fully responsive on all devices.
 
 ### Landing page
 
+#### Click to Start overlay
+*   A click to Start overlay will appear when the user navigates to the game
+
+![Click to start overlay](assets/images/readme-images/click-to-start-overlay.JPG)
+
 #### Memory game cards
 *   The memory game card layout will be using a 4x4 style grid, with a total of 16 cards.
+*   This allows the user to play the game
 *   User stories covered: 1
 
 ![memory-cards](assets/images/readme-images/card-grid.JPG)
+
 
 #### Timer and Move counters 
 *   Timer and move counters will be on the landing page above the game 
