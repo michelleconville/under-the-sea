@@ -187,10 +187,19 @@ window.onclick = function(event) {
 
 
 // Removing Click to start overlay text
-let Overlay = document.getElementById('overlay-text');
+if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready);
+} else {
+    ready();
+}
+
+function ready() {
+    let Overlay = document.getElementById('overlay-text');
 Overlay.addEventListener('click', removeOverlay);
 
 function removeOverlay() {
     let element = document.getElementById("overlay-text");
   element.classList.remove("visible");
+}
+
 }
