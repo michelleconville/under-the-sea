@@ -209,13 +209,25 @@ The ability for users to track their scores
 ### Validation
 
 #### HTML validation
+
 The W3C Markup Validation Service was used to validate the HTML of the website. All pages pass with no errors no warnings to show.
 
+<details>
+<summary>Landing page</summary>
+
+![Index page](assets/images/readme-images/html-validation-index.JPG)
+</details>
 
 <details>
 <summary>Contact page</summary>
 
 ![Contact page](assets/images/readme-images/html-validation-contact.JPG)
+</details>
+
+<details>
+<summary>404 page</summary>
+
+![404 page](assets/images/readme-images/html-validation-404.JPG)
 </details>
 
 
@@ -250,7 +262,28 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 #### Accessibility
 
 
+
 #### Performance
+
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website.
+
+<details>
+<summary>Landing page</summary>
+
+![Landing page](assets/images/readme-images/lighthouse-validation-index.JPG)
+</details>
+
+<details>
+<summary>Contact page</summary>
+
+![Contact page](assets/images/readme-images/lighthouse-validation-contact.JPG)
+</details>
+
+<details>
+<summary>404 page</summary>
+
+![404 page](assets/images/readme-images/lighthouse-validation-404.JPG)
+</details>
 
 
 ### Browser compatibility
