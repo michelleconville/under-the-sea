@@ -107,7 +107,7 @@ A thank you page when a user completes the contact us form and 404 page are also
 </details>
 
 <details>
-<summary>Contact</summary>
+<summary>Rules</summary>
 
 ![Rules modal](assets/images/readme-images/wireframe-rules-modal.JPG)
 </details>
@@ -115,7 +115,7 @@ A thank you page when a user completes the contact us form and 404 page are also
 <details>
 <summary>404 error</summary>
 
-![404 error](assets/images/readme-images/)
+![404 error](assets/images/readme-images/wireframe-404error.JPG)
 </details>
 
 ## Features 
@@ -215,7 +215,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website. 
 <details>
 <summary>Contact page</summary>
 
-![Contact page](assets/images/readme-images/html-validation-contact.JPG.JPG)
+![Contact page](assets/images/readme-images/html-validation-contact.JPG)
 </details>
 
 
@@ -284,7 +284,7 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 
 | Feature         | Action                                                         | Expected result                 | Actual Result     |
 |-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Finish modal | On landing page, find all matching cards | Finish modal appears | Works as expected |
+| Finish modal | On landing page, find all matching cards | Finish modal appears |         Works as expected |
 
 
 **Site owner**

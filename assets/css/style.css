@@ -180,6 +180,7 @@ nav a {
 .overlay-text.visible {
     display: flex;
     animation: overlay-grow 500ms forwards;
+    cursor: pointer;
   }
 
 @keyframes overlay-grow {
