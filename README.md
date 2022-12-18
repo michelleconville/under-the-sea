@@ -336,6 +336,8 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 | Navigation bar not working correctly on contact page          | Remove bootstrape and use css to format the form          |
 | Click to Start overlay appearing after selecting the restart button | add an addEventListener and create a ready function |
 | Colour contrast failed on Timer and Moves counter | Change the colour from white to black                                 |
+| HTML error - Section lacks heading | Remove section tags and add an additional div tags                                   |
+
 
 ## Deployment
 ### Project creation
