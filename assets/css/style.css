@@ -317,6 +317,10 @@ nav li {
 .finish-content h2 {  
     font-size: medium;
 }
+
+.game-btn {
+    padding: 10px;
+}
   }
 
   @media (max-width: 999px) {
