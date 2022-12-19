@@ -432,7 +432,9 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 
 | Feature         | Action                                                         | Expected result                 | Actual Result     |
 |-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Rules modal | On landing page click on the Rules link in the Navigation bar | Modal opens as expected | Works as expected |
+| Rules modal | On landing page click on the Rules link in the Navigation bar | Modal opens | Works as expected |
+| Rules modal | On Rules modal click on the play button to close the Rules modal | Modal closes | Works as expected |
+
 
 ### Further testing
 Asked friends and family to look at the site on their devices and report any issues they came found.
@@ -449,6 +451,13 @@ This testing found some css issues with the different modals on different mobile
 | Colour contrast failed on Timer and Moves counter | Change the colour from white to black                                 |
 | HTML error - Section lacks heading | Remove section tags and add an additional div tags                                   |
 
+**Error in browser**
+
+The following error appeared in my Chrome browser, it is not appearing in all browsers or all users Chrome browsers.
+
+![Browser error](assets/images/readme-images/browser-error.JPG)
+
+I have tried troubleshhoting this, from what I have read, this can be caused by a users browser extentions.
 
 
 ## Deployment

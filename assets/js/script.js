@@ -201,14 +201,9 @@
  }
 
 
- // Removing Click to start overlay text
- if (document.readyState == 'loading') {
-     document.addEventListener('DOMContentLoaded', ready);
- } else {
-     ready();
- }
+ window.addEventListener('DOMContentLoaded', ready);
 
-  /**
+ /**
   *  Function to remove overlay text
   */
  function ready() {
@@ -219,5 +214,4 @@
          let element = document.getElementById("overlay-text");
          element.classList.remove("visible");
      }
-
  }
