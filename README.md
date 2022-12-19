@@ -81,7 +81,7 @@ The colour scheme was chosen to tie in with the under the sea theme, with the di
 *   #203647 - Charcoal
 *   #DBFCFF - Light Cyan
 
-Light Cian is used throughout the site, mainly on the navigation bar and the font colour. Gunmetal is use for the game cards and the buttons. The other colours are sprinkled througout the website.
+Light Cian is used throughout the site, mainly on the navigation bar and the font colour. Gunmetal is use for the game cards and the buttons. The other colours are sprinkled throughout the website.
 
 ### Images
 The sea animals were selected to add additional colour to the game once the cards had been flipped. 
@@ -100,7 +100,7 @@ The *Under the Sea* website is structured in a user friendly and easy to learn w
 The website consists of 3 pages:
 *   The homepage 
 
-This page displays the game, the time and moves counters sit above the game and the restart button to resrart the games sits under it
+This page displays the gameboard. The timer and moves counters sit above the gameboard and the restart button to reset the games sits under it
 
 A rules modal can be located from the homepage in the navigation bar
 
@@ -110,11 +110,11 @@ When the game is completed a finish modal displays
 
 This page displays a contact form
 
-A thank you page when a user completes the contact us form and 404 page are also available.
+A thank you message will display when a user completes the contact form.
 
 *   The 404 page
 
-This page allows the user know something has gone wrong, there is a button that re-directs the user to the main page.
+This page allows the user to know when something has gone wrong, there is a button that re-directs the user to the main page.
 
 ### Wireframes
 <details>
@@ -189,7 +189,7 @@ All site wide features will be fully responsive on all devices.
 
 #### Restart button
 *   A restart button will be on the landing page under the game that when clicked will reset the game.
-*   The restart button, resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the time and moves counter back to 0.
+*   The restart button resets the game, when it is pressed the game turns any face-up cards back over, reshuffles them and resets the time and moves counter back to 0.
 *   User stories covered: 4
 
 ![memory-cards](assets/images/readme-images/restart-button.JPG)
@@ -203,7 +203,7 @@ All site wide features will be fully responsive on all devices.
 
 #### Finish modal
 *   Once the game is completed a finish modal will appear
-*   The finsh modal will indicate the game is over, it will let the user know how many moves and the total time to complete the game. A play again button will be included on the modal to bring the user back to the game.
+*   The finish modal will indicate the game is over, it will let the user know how many moves and the total time to complete the game. A play again button will be included on the modal to bring the user back to the game.
 *   User stories covered: 2, 3, 5
 
 ![rules-modal](assets/images/readme-images/finish-modal.JPG)
@@ -217,14 +217,14 @@ All site wide features will be fully responsive on all devices.
     *   Send email button
     *   Paly Again! button
 
-*   This will allow the user to provide feedback if they have any questions or suggestions. The play again button will allow the user be brought back to the gameS
+*   This will allow the user to provide feedback if they have any questions or suggestions. The play again button will allow the user to be re-directed back to the landing page
 *   User stories covered: 6
 
 ![form](assets/images/readme-images/contact-form.JPG)
 
 #### Thank-you message
-*   On successful submission of the contact form, the user will be navigated to thank-you page displaying a thank you message.
-*   This will allow the user to know their message has been received. 
+*   On successful submission of the contact form, the user will be navigated to a thank you message.
+*   This will allow the user to know their message has been received. The return to game button will allow the user to be re-directed back to the landing page
 
 ![thank-you](assets/images/readme-images/thankyou-message.JPG)
 
@@ -424,7 +424,7 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 | Contact form | Complete name field and select the send email button | **Please fill in this field** error displays  | Works as expected |
 | Contact form | Complete email field and select the send email button | **Please fill in this field** error displays  | Works as expected |
 | Contact form | Complete the fields on the form and select the send email button | **Thanks you message** appears | Works as expected |
-| Contact form | Select the **Return to game** button on the Thanks you message   | User brought back to the Click to start overlay on the landing page | Works as expected |
+| Contact form | Select the **Return to game** button on the Thank you message   | User brought back to the Click to start overlay on the landing page | Works as expected |
 
 
 
@@ -504,7 +504,7 @@ The repository will now be cloned on your local machine for use.
 *   Favicon.io - The favicon files were created at https://favicon.io/favicon-converter/
 *   Balsamiq - Wireframes were created using Balsamiq
 *   Techsini.com - Used to generate the website mock-ups
-*   EmailJs - Used tosend emails from the website
+*   EmailJs - Used to send emails from the website
 *   CSS Gradient - Used for the background colour
 
 ## Credits
