@@ -75,6 +75,12 @@ The colour scheme was chosen to tie in with the under the sea theme, with the di
 
 ![Colour Palette](assets/images/readme-images/under-the-sea-colours.png)
 
+*   #12232E - Gunmetal
+*   #007CC7 - Star command blue
+*   #4DA8DA - Caralina blue
+*   #203647 - Charcoal
+*   #DBFCFF - Light Cyan
+
 Light Cian is used throughout the site, mainly on the navigation bar and the font colour. Gunmetal is use for the game cards and the buttons. The other colours are sprinkled througout the website.
 
 ### Images
