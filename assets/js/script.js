@@ -201,7 +201,12 @@
  }
 
 
- window.addEventListener('DOMContentLoaded', ready);
+ // Removing Click to start overlay text
+ if (document.readyState == 'loading') {
+    document.addEventListener('DOMContentLoaded', ready);
+} else {
+    ready();
+}
 
  /**
   *  Function to remove overlay text

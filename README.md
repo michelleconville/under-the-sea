@@ -412,6 +412,7 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 | Feature         | Action                                        | Expected result                 | Actual Result            |
 |-----------------|-----------------------------------------------|---------------------------------|--------------------------|
 | Finish modal | On landing page, all cards matched                | Finish modal appears          |         Works as expected |
+| Finish modal | On finish modal, click on the Play Again! button to close the finish modal  | Finish modal closes |         Works as expected |
 
 
 **Site owner**
