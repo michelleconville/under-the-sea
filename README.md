@@ -9,8 +9,9 @@
 3. [Design](#design)
     1. [Colour](#colour)
     2. [Fonts](#fonts)
-    3. [Structure](#structure)
-    4. [Wireframes](#wireframes)
+    3. [Images](#images)
+    4. [Structure](#structure)
+    5. [Wireframes](#wireframes)
 4. [Features](#features)
 5. [Testing](#testing)
     1. [Validation](#validation)
@@ -45,7 +46,6 @@ View the [Live site](https://michelleconville.github.io/under-the-sea/)
 This game was designed for both children and adults in mind
 *   For children who may just want to find the matching pairs
 *   For adults who may want to challenge themselves and attempt to beat their own time and moves on each game
-
 
 ### User expectations 
 *   User-friendly and intuitive to navigation
@@ -303,7 +303,25 @@ JSHint Static Code Analysis Tool for JavaScript was used to validate the Javascr
 
 #### Accessibility
 
-NEEDS TO BE ADDED
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages pass with 0 errors.
+
+<details>
+<summary>Landing page</summary>
+
+![Landing page](assets/images/readme-images/wave-index.JPG)
+</details>
+
+<details>
+<summary>Contact page</summary>
+
+![Contact page](assets/images/readme-images/wave-contact.JPG)
+</details>
+
+<details>
+<summary>404 page</summary>
+
+![404 page](assets/images/readme-images/wave-404.JPG)
+</details>
 
 #### Performance
 
