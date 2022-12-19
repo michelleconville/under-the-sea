@@ -4,7 +4,7 @@
  const timeContainer = document.querySelector(".timer");
  const rules = document.getElementById('rules');
  const finish = document.getElementById('finish');
- const MAX_MATCH = 8;
+ const max_match = 8;
 
  let gameOn = false;
  let perfectMatch = 0;
@@ -56,7 +56,7 @@
      if (isMatch) pairMatch();
      else noMatch();
 
-     if (perfectMatch === MAX_MATCH) finishGame();
+     if (perfectMatch === max_match) finishGame();
  }
 
  /**

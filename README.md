@@ -231,10 +231,22 @@ All site wide features will be fully responsive on all devices.
 ### Future features to be implemented
 *   Scoreboard
 
-The ability for users to track their scores
+It would be nice to include a scoreboard so that user can compare their score. This could increase the challenge for users to try and beat their previous scores.
+
+*   Different Levels
+
+The game could be extended through the implementation of a level structure which would require the player to work their way through the levels.
 
 
 ## Testing
+
+I took a two-stage approach to testing the site. 
+*   The first stage was continuous testing as the site was being developed. This was important to do during development of the JavaScript logic to ensure that the different functions and variables contained or returned the correct data type or values. During the styling of the site, I would check the visual appearance within a live server window to preview the changes before they were committed to reduce the number of bugs. 
+*   For the second stage of testing, I used a more structured approach, I created test cases from the user stories ensure all the features worked as expected, I executed the tests individually making a note of any errors or changes to the designed behaviour. Any errors were corrected and then the tests repeated.
+*   I validated all the different types of code and ran performance and accessibility test across different browsers and device types. 
+
+All results are documented below.
+
 
 ### Validation
 
@@ -344,45 +356,59 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 
 1. I want to test my memory skill in a fun environment
 
-| Feature         | Action                                                         | Expected result                 | Actual Result     |
-|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Memory game cards | On landing page click on the cards to play the game | Game starts | Works as expected |
+| Feature         | Action                                         | Expected result                 | Actual Result           |
+|-----------------|--------------------------------------------|---------------------------------|-----------------------------|
+| Memory game cards | On landing page, click on the cards to play the game | Game starts | Works as expected                   |
+| Memory game cards | Flip two cards, find match | Matching cards still visible, game continues | Works as expected            |
+| Memory game cards | Flip two cards, no match found | Cards flip back over, game continues | Works as expected                |
 
 2.  I want to see how long it takes me to complete the challenge
 
-| Feature               | Action                                                           | Expected result                                | Actual Result     |
-|-----------------------|------------------------------------------------------------------|------------------------------------------------|-------------------|
-| Timer counter  | On landing page click on a card to start the game timer  | Timer counter starts  |  Works as expected |
-| Finish modal | On landing page, find all matching cards | On landing page, find all matching cards | Works as expected |
+| Feature               | Action                | Expected result                                | Actual Result               |
+|-----------------------|-----------------------------------|----------------------------------------|-------------------------|
+| Timer counter  | On landing page click on a card to start the game timer  | Timer counter starts  |  Works as expected       |
+| Timer counter | Flip two cards, find match | Matching cards still visible, timer continues    | Works as expected            |
+| Timer counter| Flip two cards, no match found | Cards flip back over, timer continues    | Works as expected                 |
+| Finish modal | All cards matched         | Finish modal appears with total time     | Works as expected                      |
 
 
 3.  I want to see the number of moves it takes me to complete the challenge
 
-| Feature               | Action                                                           | Expected result                                | Actual Result     |
-|-----------------------|------------------------------------------------------------------|------------------------------------------------|-------------------|
-| Moves counter  | On landing page flip over two cards to start the moves counter | Moves counter starts |      Works as expected |
-| Finish modal | On landing page, find all matching cards | Finish modal appears with total number of moves | Works as expected |
+| Feature               | Action                       | Expected result                             | Actual Result           |
+|-----------------------|---------------------------------------|-------------------------------|------------------------------|
+| Moves counter  | On landing page flip over two cards to start the moves counter | Moves counter starts |  Works as expected  |
+| Moves counter | Flip two cards, no match found | Cards flip back over, timer continues    |     Works as expected            |
+| Moves counter | Flip two cards, find match | Matching cards still visible, timer doesn't change        | Works as expected   |
+| Finish modal | All cards matched | Finish modal appears with total number of moves |                      Works as expected  |
 
 4. I want to be able to reset the game at any time
 
-| Feature         | Action                                                         | Expected result                 | Actual Result     |
-|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Restart button | On landing page, once the game has started, select the restart button | Cards, timer and moves counter are reset | Works as expected |
+| Feature         | Action                                              | Expected result              -   | Actual Result     |
+|-----------------|------------------------------------------------------|---------------------------------|-------------------|
+| Restart button | On landing page, once the game has started, select the restart button | Cards are reset | Works as expected |
+| Restart button | On landing page, once the game has started, select the restart button | Timer is reset  | Works as expected |
+| Restart button | On landing page, once the game has started, select the restart button | Moves is reset  | Works as expected |
 
 5. I want to receive a notification what the game is complete
 
-| Feature         | Action                                                         | Expected result                 | Actual Result     |
-|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Finish modal | On landing page, find all matching cards | Finish modal appears |         Works as expected |
+| Feature         | Action                                        | Expected result                 | Actual Result            |
+|-----------------|-----------------------------------------------|---------------------------------|--------------------------|
+| Finish modal | On landing page, all cards matched                | Finish modal appears          |         Works as expected |
 
 
 **Site owner**
 
 6. I want users to be able to contact us
 
-| Feature         | Action                                                         | Expected result                 | Actual Result     |
-|-----------------|----------------------------------------------------------------|---------------------------------|-------------------|
-| Contact page | On landing page click on the Contact link in the Navigation bar | Data submitted via contact form | Works as expected |
+| Feature         | Action                                              | Expected result                 | Actual Result      |
+|-----------------|----------------------------------------------------------------|-----------------------|-------------------|
+| Contact page | On landing page click on the Contact link in the Navigation bar | Contact page opens      | Works as expected |
+| Contact form | Complete name field and select the send email button | **Please fill in this field** error displays  | Works as expected |
+| Contact form | Complete email field and select the send email button | **Please fill in this field** error displays  | Works as expected |
+| Contact form | Complete the fields on the form and select the send email button | **Thanks you message** appears | Works as expected |
+| Contact form | Select the **Return to game** button on the Thanks you message   | User brought back to the Click to start overlay on the landing page | Works as expected |
+
+
 
 7. I want users to understand the game
 
@@ -392,6 +418,8 @@ In addition to the above listed devices, the Google Chrome Developer Tools devic
 
 ### Further testing
 Asked friends and family to look at the site on their devices and report any issues they came found.
+
+This testing found some css issues with the different modals on different mobile types. 
 
 ### Bugs
 
