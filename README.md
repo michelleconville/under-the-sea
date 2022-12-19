@@ -487,6 +487,7 @@ The repository will now be cloned on your local machine for use.
 *   Balsamiq - Wireframes were created using Balsamiq
 *   Techsini.com - Used to generate the website mock-ups
 *   EmailJs - Used tosend emails from the website
+*   CSS Gradient - Used for the background colour
 
 ## Credits
 
@@ -504,7 +505,7 @@ The repository will now be cloned on your local machine for use.
 *   [kubowania](https://github.com/kubowania/memory-game)
 *   [taniarascia](https://github.com/taniarascia/memory)
 *   [4n4ru](https://github.com/4n4ru/CI-P2-GuessingBee)
-*   [moirahartigan] (https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game)
+*   [moirahartigan](https://github.com/moirahartigan/Portfolio-2---Alien-Memory-Game)
 
 ##  Acknowledgements
 Special thanks to my mentor Daisy for her assistance throughout this project.
