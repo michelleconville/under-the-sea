@@ -167,19 +167,25 @@ if(restartBtn){
  }
 
  //Open rules modal
- let modalBtn = document.getElementById("modalBtn");
- let closeBtn = document.getElementById("closeBtn");
-
- modalBtn.addEventListener('click', showRules);
- closeBtn.addEventListener('click', closeRules);
+ let modalBtn = document.getElementById('modalBtn');
+ if(modalBtn){
+   modalBtn.addEventListener('click', showRules);
+ }
 
  function showRules() {
      rules.style.display = "block";
  }
 
- function closeRules() {
-     rules.style.display = "none";
+ //Close rules modal
+ let closeBtn = document.getElementById('closeBtn');
+ if(closeBtn){
+   closeBtn.addEventListener('click', closeRules);
  }
+ 
+  function closeRules() {
+      rules.style.display = "none";
+  }
+ 
 
  /**
   *  Game over function
@@ -214,10 +220,12 @@ if(restartBtn){
   *  Function to remove overlay text
   */
  function ready() {
-     let Overlay = document.getElementById('overlay-text');
-     Overlay.addEventListener('click', removeOverlay);
+    let overlay = document.getElementById('overlay-text');
+    if(overlay){
+      overlay.addEventListener('click', removeoverlay);
+    }
 
-     function removeOverlay() {
+     function removeoverlay() {
          let element = document.getElementById("overlay-text");
          element.classList.remove("visible");
      }
