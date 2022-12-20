@@ -139,7 +139,9 @@
 
  // Restart Button 
  let restartBtn = document.getElementById('restart');
- restartBtn.addEventListener('click', restart);
+if(restartBtn){
+    restartBtn.addEventListener('click', restart);
+}
 
  /**
   *  Restart button to reset the board, timer and moves counters
